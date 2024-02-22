@@ -7,5 +7,5 @@ An empty turborepo starter with pnpm and biome
 Run the following command:
 
 ```sh
-npx create-turbo@latest -e https://github.com/enricosecondulfo/turborepo-templates/with-pnpm-biome
+npx create-turbo@latest -e https://github.com/enricosecondulfo/turborepo-templates/tree/main/with-pnpm-biome
 ```
