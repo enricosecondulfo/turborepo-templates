@@ -1,0 +1,26 @@
+{
+  "name": "turborepo-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=21"
+  },
+  "packageManager": "pnpm@8.15.3",
+  "scripts": {
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "turbo": "latest"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
